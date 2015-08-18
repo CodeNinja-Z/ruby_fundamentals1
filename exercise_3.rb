@@ -1,9 +1,10 @@
 puts "What is your name?"
 name = gets.chomp
 puts "Hi #{name}!"
-puts "What year were you born?"
+puts "How old are you?"
 age = gets.chomp
-puts "You were born in #{age}."
+year_of_birth = 2015 - age.to_i
+puts "You are #{age}-year-old. You were born in " + year_of_birth.to_s + '.'
 
 #if
 =begin
